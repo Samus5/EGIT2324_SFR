@@ -44,6 +44,16 @@ public class Persona {
 	        this.edad = edad;
 	    }
 
+	    
+	    // Método para imprimir los datos de la persona por pantalla
+	    public void datosPersona() {
+	        System.out.println("Nombre: " + nombre);
+	        System.out.println("Apellidos: " + apellidos);
+	        System.out.println("Edad: " + edad);
+	    }
+	    
+	    
+	    
 	    public static void main(String[] args) {
 	        // Ejemplo de uso
 	        Persona persona = new Persona("Juan", "Pérez", 25);
@@ -53,7 +63,17 @@ public class Persona {
 
 	        // Llamada al método cumpleaños
 	        persona.cumpleaños();
+	        // Llamada al método datosPersona
+	        persona.datosPersona();
+
+	        // Llamada al método cumpleaños
+	        persona.cumpleaños();
 	    }
-	}
+		    
+	    
+	    }
+	
 
 
+
+   
